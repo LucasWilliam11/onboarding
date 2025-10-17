@@ -29,3 +29,12 @@ Projeto desenvolvido com **Spring Boot 3.5.6** e **Java 21**.
 
   ```bash
   docker-compose up -d
+- A aplicação estará disponível na porta 8080.
+
+## Documentação
+
+- Swagger UI disponível em: http://localhost:8080/mybank/swagger-ui/index.html#/
+
+## Repositório GitHub
+
+- Código fonte disponível em: https://github.com/LucasWilliam11/onboarding
