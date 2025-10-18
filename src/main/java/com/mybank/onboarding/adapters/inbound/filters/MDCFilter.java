@@ -11,7 +11,7 @@ import java.util.UUID;
 @Component
 public class MDCFilter implements Filter {
 
-    private static final String REQUEST_ID = "userId";
+    private static final String REQUEST_ID = "correlationId";
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
